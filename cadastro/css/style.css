@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    margin:0;
+}
+
+.fundo{
+    min-height:100vh;
+    background: linear-gradient(180deg,#5b57f0,#4a43dd);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#cadastro{
+    background:white;
+    padding:40px;
+    width:380px;
+    border-radius:10px;
+    display:flex;
+    flex-direction:column;
+    gap:6px;
+}
+
+h1{
+    text-align:center;
+}
+
+label{
+    font-size:14px;
+    font-weight:600;
+}
+
+input, select{
+    padding:8px;
+    border-radius:6px;
+    border:1px solid #ccc;
+}
+
+button{
+    margin-top:15px;
+    padding:12px;
+    background:#4f46e5;
+    border:none;
+    border-radius:6px;
+    color:white;
+    font-size:15px;
+    cursor:pointer;
+}
+
+button:hover{
+    opacity:0.9;
+}
